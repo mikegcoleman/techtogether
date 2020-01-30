@@ -1,0 +1,15 @@
+{
+  "short_name": "Memory Game",
+  "name": "A simple game where you guess which tiles match",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

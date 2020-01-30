@@ -1,0 +1,23 @@
+{
+  "name": "LightsailDemo",
+  "version": "1.0.0",
+  "description": "Lightsail Demo Project",
+  "main": "index.js",
+  "author": "rupshur",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "2.96.0",
+    "express": "4.15.4",
+    "mysql": "latest",
+    "body-parser": "latest"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "yarn": "latest"
+  },
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "node server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  }
+}
